@@ -26,6 +26,7 @@ body {
   margin: 0px;
 }
 
+/* Header section */
 .header-section {
   background-color: var(--dark-background-color);
   color: var(--main-text-color);
@@ -58,6 +59,7 @@ body {
   text-decoration: none;
 }
 
+/* Hero section */
 .hero-section {
   background-color: var(--dark-background-color);
   color: var(--main-text-color);
@@ -99,6 +101,7 @@ body {
   padding: 10px 30px;
 }
 
+/* Random section */
 .random-section {
   background-color: var(--main-text-color);
   color: var(--dark-background-color);
@@ -143,6 +146,7 @@ body {
   text-align: center;
 }
 
+/* Testimonials section */
 .testimonials {
   background-color: var(--quote-bg-color);
   color: var(--dark-background-color);
@@ -166,9 +170,27 @@ body {
   font-weight: 700;
 }
 
+/* Call to action section */
 .call-to-action {
   background-color: var(--main-text-color);
   padding: 100px 0;
+}
+
+.call-to-action2 {
+  background-color: var(--quote-bg-color);
+  padding: 100px 0;
+}
+
+.call-to-action2 h2 {
+  color: var(--dark-background-color);
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.mood {
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .cta-container {
@@ -192,6 +214,8 @@ body {
   text-decoration: none;
   padding: 10px 40px;
 }
+
+/* Footer Section */
 
 footer {
   background-color: var(--dark-background-color);
